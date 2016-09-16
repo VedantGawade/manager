@@ -108,7 +108,9 @@ def Link_looper(uuu):
             link_list.append(temp_new_link)
         Extractor(link_list[run_rank])
         run_rank += 1
-        if link_count > 2500: break
+        if link_count > 2500:
+            break
+            # Temporarly kept, for benchmarking
 if __name__ == '__main__':
     print "Please enter the link in proper format lile::-"
     print "https://vfedscxrfd.com/"
